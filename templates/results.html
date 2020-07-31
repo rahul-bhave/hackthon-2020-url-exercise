@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>URL quiz</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/stylesheet_results.css') }}">
+    </head>
+    <body>
+        <div>
+            <h1>Results!</h1>
+            <br>
+            <h2>You scored {{ result }} out of {{ total }}!</h2>
+        </div>
+    </body>
+</html>
